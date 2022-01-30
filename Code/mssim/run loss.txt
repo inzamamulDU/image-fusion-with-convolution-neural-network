@@ -1,0 +1,9 @@
+for mssim 
+
+python mssim.py --original_image=01_A.png --compared_image=IFCNN-MAX-RGB-RGB.png
+
+for mssim+l1
+
+python mssim+l1.py
+
+input two path should given on the code

@@ -1,0 +1,16 @@
+environment setup
+
+
+conda create -n IFCNN python=3.5
+conda activate IFCNN
+pip install torchvision===0.5.0 -f https://download.pytorch.org/whl/torch_stable.htm
+conda install pytorch=0.4.1 cuda80 -c pytorch
+pip install --trusted-host pypi.org --trusted-host files.pythonhosted.org torch===0.4.1 torchvision===0.2.2 -f https://download.pytorch.org/whl/torch_stable.html
+conda install numpy jupyter notebook
+pip install opencv-python
+
+pip install pypiwin32
+
+
+how to run:
+
